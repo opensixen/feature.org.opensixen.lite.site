@@ -22,6 +22,7 @@
 <repository location="http://download.eclipse.org/releases/helios"/>
 </location>
 <location path="/home/harlock/eclipse/deltapack/eclipse" type="Directory"/>
+<location path="${workspace_loc}" type="Directory"/>
 </locations>
 <environment>
 <os>linux</os>
