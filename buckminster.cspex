@@ -19,14 +19,14 @@
                 <property key="targets" value="create.product" />
             </actorProperties>
             <properties>
-                <property key="profile" value="MailProfile" />
-                <property key="iu" value="com.example.mail.product" />
+                <property key="profile" value="OpensixenLite" />
+                <property key="iu" value="OpensixenLite" />
             </properties>
             <prerequisites alias="repository">
                 <attribute name="site.p2" />
             </prerequisites>
             <products alias="destination" base="${buckminster.output}">
-                <path path="mail.${target.ws}.${target.os}.${target.arch}/" />
+                <path path="opensixenLite.${target.ws}.${target.os}.${target.arch}/" />
             </products>
         </public>
         <public name="create.product.zip" actor="ant">
