@@ -1,340 +1,45 @@
-
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- ViewVC :: http://www.viewvc.org/ -->
-<head>
-<title>[TOOLS_BUCKMINSTER] Log of /trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant</title>
-<meta name="author" content="Eclipse Foundation, Inc." />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
-<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/novaWide.css" media="screen" />
-<link rel="stylesheet" href="/viewsvn/viewvc.cgi/*docroot*/styles.css" type="text/css" />
-<link rel="stylesheet" href="/viewsvn/viewvc.cgi/*docroot*/overrides.css" type="text/css" />
-
-</head>
-<body>
-<div id="novaWrapper"><div id="clearHeader">
-<div id="logo"><img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/></div>
-<div id="otherSites"><div id="sites"><ul id="sitesUL"><li><a href='http://marketplace.eclipse.org/'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/network-wired-bw.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
-<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
-<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
-<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
-<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
-<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li></ul></div></div></div>
-<div id="header"><div id="menu"><ul>
-<li><a href="http://www.eclipse.org/">Eclipse Home</a></li>
-<li><a href="http://www.eclipse.org/users/">Users</a></li>
-<li><a href="http://www.eclipse.org/membership/">Members</a></li>
-<li><a href="http://www.eclipse.org/committers/">Committers</a></li>
-<li><a href="http://www.eclipse.org/downloads/">Downloads</a></li>
-<li><a href="http://www.eclipse.org/resources/">Resources</a></li>
-<li><a href="http://www.eclipse.org/projects/">Projects</a></li>
-<li><a href="http://www.eclipse.org/org/">About Us</a></li>
-</ul></div>
-<div id="search">
-<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
-<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
-<input id="searchBox" type="text" name="q" size="25" />
-<input id="searchButton" type="submit" name="sa" value="Search" />
-</form>
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>
-</div></div><div id="novaContent">
-
-<div class="vc_navheader">
-<table><tr>
-<td><strong><a href="/viewsvn/viewvc.cgi?view=roots"><span class="pathdiv">/</span></a><a href="/viewsvn/viewvc.cgi/?root=TOOLS_BUCKMINSTER">[TOOLS_BUCKMINSTER]</a><span class="pathdiv">/</span><a href="/viewsvn/viewvc.cgi/trunk/?root=TOOLS_BUCKMINSTER">trunk</a><span class="pathdiv">/</span><a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/?root=TOOLS_BUCKMINSTER">org.eclipse.buckminster.tutorial.mailapp.product.feature</a><span class="pathdiv">/</span><a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/?root=TOOLS_BUCKMINSTER">build</a><span class="pathdiv">/</span>product.ant</strong></td>
-<td style="text-align: right;"></td>
-</tr></table>
-</div>
-
-<h1>Log of /trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant</h1>
-
-<p style="margin:0;">
-
-<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/?root=TOOLS_BUCKMINSTER"><img src="/viewsvn/viewvc.cgi/*docroot*/images/back_small.png" class="vc_icon" alt="Parent Directory" /> Parent Directory</a>
-
-| <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;view=log"><img src="/viewsvn/viewvc.cgi/*docroot*/images/log.png" class="vc_icon" alt="Revision Log" /> Revision Log</a>
-
-
-
-
-</p>
-
-<hr />
-<table class="auto">
-
-
-
-<tr>
-<td>Links to HEAD:</td>
-<td>
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=markup&amp;root=TOOLS_BUCKMINSTER">view</a>)
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=co&amp;root=TOOLS_BUCKMINSTER">download</a>)
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=annotate&amp;root=TOOLS_BUCKMINSTER">annotate</a>)
-</td>
-</tr>
-
-
-
-<tr>
-<td>Sticky Revision:</td>
-<td><form method="get" action="/viewsvn/viewvc.cgi" style="display: inline">
-<div style="display: inline">
-<input type="hidden" name="orig_pathtype" value="FILE"/><input type="hidden" name="orig_view" value="log"/><input type="hidden" name="orig_path" value="trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant"/><input type="hidden" name="root" value="TOOLS_BUCKMINSTER"/><input type="hidden" name="view" value="redirect_pathrev"/>
-
-<input type="text" name="pathrev" value="" size="6"/>
-
-<input type="submit" value="Set" />
-</div>
-</form>
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-
-
-
-<div>
-<hr />
-
-<a name="rev11536"></a>
-
-
-Revision <a href="/viewsvn/viewvc.cgi?view=revision&amp;root=TOOLS_BUCKMINSTER&amp;revision=11536"><strong>11536</strong></a> -
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=markup&amp;revision=11536&amp;root=TOOLS_BUCKMINSTER">view</a>)
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=co&amp;revision=11536&amp;root=TOOLS_BUCKMINSTER">download</a>)
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?annotate=11536&amp;root=TOOLS_BUCKMINSTER">annotate</a>)
-
-
-
-- <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;r1=11536&amp;view=log">[select for diffs]</a>
-
-
-
-
-<br />
-
-Modified
-
-<em>Tue Jul 27 22:21:16 2010 UTC</em>
-(12 months, 2 weeks ago)
-by <em>thallgren</em>
-
-
-
-
-
-
-
-
-
-<br />File length: 1525 byte(s)
-
-
-
-
-
-
-
-<br />Diff to <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;r1=11492&amp;r2=11536">previous 11492</a>
-
-
-
-
-
-
-
-<pre class="vc_log">Removed some obsolete vmargs.</pre>
-</div>
-
-
-
-<div>
-<hr />
-
-<a name="rev11492"></a>
-
-
-Revision <a href="/viewsvn/viewvc.cgi?view=revision&amp;root=TOOLS_BUCKMINSTER&amp;revision=11492"><strong>11492</strong></a> -
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=markup&amp;revision=11492&amp;root=TOOLS_BUCKMINSTER">view</a>)
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=co&amp;revision=11492&amp;root=TOOLS_BUCKMINSTER">download</a>)
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?annotate=11492&amp;root=TOOLS_BUCKMINSTER">annotate</a>)
-
-
-
-- <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;r1=11492&amp;view=log">[select for diffs]</a>
-
-
-
-
-<br />
-
-Modified
-
-<em>Thu Jul  8 16:26:59 2010 UTC</em>
-(13 months ago)
-by <em>jutzig</em>
-
-
-
-
-
-
-
-
-
-<br />File length: 1711 byte(s)
-
-
-
-
-
-
-
-<br />Diff to <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;r1=10421&amp;r2=11492">previous 10421</a>
-
-
-
-
-
-
-
-<pre class="vc_log">Bug 319172 - Example Mail app fails: &quot;URI not hierarchical&quot;</pre>
-</div>
-
-
-
-<div>
-<hr />
-
-<a name="rev10421"></a>
-
-
-Revision <a href="/viewsvn/viewvc.cgi?view=revision&amp;root=TOOLS_BUCKMINSTER&amp;revision=10421"><strong>10421</strong></a> -
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=markup&amp;revision=10421&amp;root=TOOLS_BUCKMINSTER">view</a>)
-
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?view=co&amp;revision=10421&amp;root=TOOLS_BUCKMINSTER">download</a>)
-
-(<a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?annotate=10421&amp;root=TOOLS_BUCKMINSTER">annotate</a>)
-
-
-
-- <a href="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant?root=TOOLS_BUCKMINSTER&amp;r1=10421&amp;view=log">[select for diffs]</a>
-
-
-
-
-<br />
-
-Added
-
-<em>Fri Jun 26 22:47:08 2009 UTC</em>
-(2 years, 1 month ago)
-by <em>thallgren</em>
-
-
-
-
-
-
-
-<br />File length: 1721 byte(s)
-
-
-
-
-
-
-
-
-
-
-
-<pre class="vc_log">Bug 281503 - MailApp Example is not installable and missing a create.product action</pre>
-</div>
-
- 
-
-
- <hr />
-<p><a name="diff"></a>
-This form allows you to request diffs between any two revisions of this file.
-For each of the two "sides" of the diff,
-
-enter a numeric revision.
-
-</p>
-<form method="get" action="/viewsvn/viewvc.cgi/trunk/org.eclipse.buckminster.tutorial.mailapp.product.feature/build/product.ant" id="diff_select">
-<table cellpadding="2" cellspacing="0" class="auto">
-<tr>
-<td>&nbsp;</td>
-<td>
-<input type="hidden" name="root" value="TOOLS_BUCKMINSTER"/><input type="hidden" name="view" value="diff"/>
-Diffs between
-
-<input type="text" size="12" name="r1"
-value="11536" />
-
-and
-
-<input type="text" size="12" name="r2" value="10421" />
-
-</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>
-Type of Diff should be a
-<select name="diff_format" onchange="submit()">
-<option value="h" selected="selected">Colored Diff</option>
-<option value="l" >Long Colored Diff</option>
-<option value="f" >Full Colored Diff</option>
-<option value="u" >Unidiff</option>
-<option value="c" >Context Diff</option>
-<option value="s" >Side by Side</option>
-</select>
-<input type="submit" value=" Get Diffs " />
-</td>
-</tr>
-</table>
-</form>
-
-
-
-
-
-<hr />
-<br style="clear:both;height:1em;"/>&nbsp;</div><div id="clearFooter"></div><div id="footer"><ul id="footernav"><li><a href="http://www.eclipse.org/">Eclipse Home</a></li><li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li><li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li><li><a href="http://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li></ul><span id="copyright">Copyright &copy; 2009-2010 The Eclipse Foundation. All Rights Reserved.</span></div></div>
-</body>
-</html>
-
-
+<project>
+	 <pathconvert property="equinox.launcher.jar">
+	   <first count="1">
+	     <sort>
+	       <fileset dir="${eclipse.home}/plugins" includes="**/org.eclipse.equinox.launcher_*.jar"/>
+	       <reverse xmlns="antlib:org.apache.tools.ant.types.resources.comparators">
+	         <date/>
+	       </reverse>
+	     </sort>
+	   </first>
+	 </pathconvert>
+
+	<target name="create.product">
+		<property name="destination" location="${sp:destination}"/>
+		<delete dir="${destination}"/>
+		<makeurl property="repository" file="${sp:repository}"/>
+		<mkdir dir="${destination}"/>
+		<echoproperties/>
+		<echo message="${equinox.launcher.jar}"/>
+		<echo message="${repository}"/>
+		<echo message="${destination}"/>
+		<java jar="${equinox.launcher.jar}" fork="true" failonerror="true" >
+			<arg value="-application"/>
+			<arg value="org.eclipse.equinox.p2.director"/>
+			<arg value="-repository"/>
+			<arg value="${repository}"/>
+			<arg value="-destination"/>
+			<arg value="${destination}"/>
+			<arg value="-profile"/>
+			<arg value="${profile}"/>
+			<arg value="-profileProperties" />
+			<arg value="org.eclipse.update.install.features=true" />
+			<arg value="-installIU"/>
+			<arg value="${iu}"/>
+			<arg value="-p2.os" />
+			<arg value="${target.os}" />
+			<arg value="-p2.ws" />
+			<arg value="${target.ws}" />
+			<arg value="-p2.arch" />
+			<arg value="${target.arch}" />
+			<arg value="-consoleLog"/>
+			<!-- jvmarg value="-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=y"/ -->
+		</java>
+	</target>
+</project>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="Running Platform" sequenceNumber="8">
+<target name="Running Platform" sequenceNumber="12">
 <locations>
-<location path="${workspace_loc}" type="Directory"/>
-<location includeAllPlatforms="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="false" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.rcp.source.feature.group" version="3.7.0.v20110216-9DB5Fm1FpBGy_AaVz-mFamgY"/>
 <unit id="org.eclipse.equinox.sdk.feature.group" version="3.7.0.v20110502-7M7W8Z8eNV4UqfbhicjDN-ROgjNc"/>
 <unit id="org.eclipse.riena.build.feature.sdk.feature.group" version="3.0.0.v20110614_3_0_0_0"/>
 <repository location="http://download.eclipse.org/releases/indigo"/>
 </location>
+<location path="${workspace_loc}" type="Directory"/>
+<location path="/opt/deltapack-3.7/plugins" type="Directory"/>
 </locations>
 <launcherArgs>
 <vmArgs>-Dosgi.requiredJavaVersion=1.5 -XX:MaxPermSize=256m -Xms40m -Xmx512m</vmArgs>

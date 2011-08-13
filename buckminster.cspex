@@ -38,7 +38,7 @@
                 <attribute name="create.product" />
             </prerequisites>
             <products alias="action.output" base="${buckminster.output}">
-                <path path="mail.${target.ws}.${target.os}.${target.arch}.zip" />
+                <path path="opensixenLite.${target.ws}.${target.os}.${target.arch}.zip" />
             </products>
         </public>
 	</actions>

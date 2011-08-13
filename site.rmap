@@ -13,8 +13,7 @@
                 <bc:propertyRef key="workspace.root" />
                 <bc:propertyRef key="buckminster.component" />
             </uri>
-        </provider>
-    </searchPath>
- 
-    <locator searchPathRef="resources"/>
+        </provider>                        
+    </searchPath> 
+    <locator searchPathRef="resources"/>            
 </rmap>
