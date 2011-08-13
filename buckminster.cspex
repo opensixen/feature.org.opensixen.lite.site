@@ -20,7 +20,7 @@
             </actorProperties>
             <properties>
                 <property key="profile" value="OpensixenLite" />
-                <property key="iu" value="OpensixenLite" />
+                <property key="iu" value="product.opensixen.client.lite" />
             </properties>
             <prerequisites alias="repository">
                 <attribute name="site.p2" />
